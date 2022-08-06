@@ -1,0 +1,15 @@
+[package]
+name = "rust-gtk4-boilerplate"
+version = "0.1.0"
+edition = "2021"
+authors = ["Daniel Morales <daniel85mg@gmail.com>"]
+description = "Hello World rust app using GTK4"
+homepage = "https://daniel.uy/"
+repository = "https://github.com/danielm/rust-gtk4-boilerplate"
+license = "GPL-2.0-or-later"
+keywords = ["rust", "gtk"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk = { version = "0.4.8", package = "gtk4" }
